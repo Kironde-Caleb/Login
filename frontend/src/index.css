@@ -37,7 +37,7 @@
 .button1 {
   width: 400px;
   height: 40px;
-  margin-top: 58px;
+  margin-top: 55px;
   background-color: blue;
   display: block;
   margin-left: 85px;
@@ -106,20 +106,20 @@
 
 .email[type="text"] {
   padding-left: 15px;
-  color: rgb(23, 23, 216);
+  color: black(23, 23, 216);
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .password[type="password"] {
   padding-left: 15px;
-  color: rgb(23, 23, 216);
+  color: black(23, 23, 216);
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .WeSell {
-  margin-top: 20px;
+  margin-top: 28px;
   margin-left: 250px;
   height: 50px;
   width: 100px;
@@ -145,10 +145,27 @@
   margin-left: 6px;
 }
 
+.we:hover {
+  cursor: default;
+}
+
 .sell {
   font-size: 30px;
   margin-top: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: blue;
   margin-left: 4px;
+}
+
+.sell:hover {
+  cursor: default;
+}
+
+.forgot {
+  margin-top: 18px;
+  margin-left: 85px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 11px;
+  color: black;
+  text-decoration: none;
 }

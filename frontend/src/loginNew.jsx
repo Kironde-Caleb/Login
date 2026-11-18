@@ -9,6 +9,7 @@ function LoginNew() {
           </div>
           <input type="text" className="email" placeholder="E-mail" />
           <input type="password" className="password" placeholder="Password" />
+          <a href="" className="forgot">Forgot passsword</a>
           <div type="button" className="button1">
             <p className="loginFont">Log In</p>
           </div>
