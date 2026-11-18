@@ -3,6 +3,10 @@ function LoginNew() {
     <>
       <div className="containerNew">
         <div className="loginContainer">
+          <div className="WeSell">
+            <div className="WeSell2"> <p className="we">We</p></div>
+            <div className="WeSell3"> <p className="sell">Sell</p></div>
+          </div>
           <input type="text" className="email" placeholder="E-mail" />
           <input type="password" className="password" placeholder="Password" />
           <div type="button" className="button1">
@@ -10,10 +14,6 @@ function LoginNew() {
           </div>
           <div type="button" className="button2">
             <p className="accountFont">Create account</p>
-          </div>
-          <div className="WeSell">
-            <div className="WeSell2"> <p className="we"></p></div>
-            <div className="WeSell3"> <p className="sell"></p></div>
           </div>
         </div>
       </div>

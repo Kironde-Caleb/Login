@@ -1,7 +1,7 @@
 .containerNew {
   width: 100%;
   height: 100vh;
-  background-color: white];
+  background-color: white;
   display: flex;
 }
 
@@ -17,7 +17,7 @@
 .email {
   width: 400px;
   height: 40px;
-  margin-top: 150px;
+  margin-top: 60px;
   margin-left: 85px;
   border:
     solid,
@@ -118,4 +118,37 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.WeSell {
+  margin-top: 20px;
+  margin-left: 250px;
+  height: 50px;
+  width: 100px;
+  display: flex;
+}
 
+.WeSell2 {
+  background-color: blue;
+  height: 35px;
+  width: 50px;
+}
+
+.WeSell3 {
+  height: 50px;
+  width: 50px;
+}
+
+.we {
+  font-size: 30px;
+  margin-top: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  margin-left: 6px;
+}
+
+.sell {
+  font-size: 30px;
+  margin-top: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blue;
+  margin-left: 4px;
+}
