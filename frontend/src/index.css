@@ -1,0 +1,121 @@
+.containerNew {
+  width: 100%;
+  height: 100vh;
+  background-color: white];
+  display: flex;
+}
+
+.loginContainer {
+  width: 600px;
+  height: 550px;
+  margin-top: 130px;
+  border: solid, 5px, blue;
+  margin-left: 530px;
+  background-color: white;
+}
+
+.email {
+  width: 400px;
+  height: 40px;
+  margin-top: 150px;
+  margin-left: 85px;
+  border:
+    solid,
+    3px black;
+}
+
+.password {
+  width: 400px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 85px;
+  border:
+    solid,
+    3px black;
+}
+
+.button1 {
+  width: 400px;
+  height: 40px;
+  margin-top: 58px;
+  background-color: blue;
+  display: block;
+  margin-left: 85px;
+  border:
+    solid,
+    3px blue;
+}
+
+.button2 {
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: blue;
+  display: block;
+  margin-left: 85px;
+  border:
+    solid,
+    3px blue;
+}
+
+.loginFont {
+  margin-left: 180px;
+  color: white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.accountFont {
+  margin-left: 150px;
+  color: white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: rgb(23, 23, 216);
+  border:
+    solid,
+    3px rgb(23, 23, 216);
+}
+
+.button1:hover {
+  cursor: pointer;
+  background-color: rgb(23, 23, 216);
+  border:
+    solid,
+    3px rgb(23, 23, 216);
+}
+
+.email::placeholder {
+  padding-left: 20px;
+  color: blue;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.password::placeholder {
+  padding-left: 20px;
+  color: blue;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.email[type="text"] {
+  padding-left: 15px;
+  color: rgb(23, 23, 216);
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.password[type="password"] {
+  padding-left: 15px;
+  color: rgb(23, 23, 216);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
