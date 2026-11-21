@@ -1,5 +1,6 @@
 import RegisterPage1 from "./RegisterPage1";
+import LoginNew from "./loginNew";
 
 export default function App() {
-  return <RegisterPage1 />;
+  return <LoginNew />;
 }

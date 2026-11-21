@@ -2,7 +2,8 @@ function LoginNew() {
   return (
     <>
       <div className="containerNew">
-        <div className="containerNew">
+        <div className="img"></div>
+        <div className="loginContainer">
           <div className="WeSell">
             <div className="WeSell2"> <p className="we">We</p></div>
             <div className="WeSell3"> <p className="sell">Sell</p></div>
