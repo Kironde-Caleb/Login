@@ -2,6 +2,7 @@ function RegisterPage1() {
   return (
     <>
       <div className="containerNew2">
+        <div className="img2"></div>
         <div className="registerContainer">
           <div className="Create">
             <div className="Create2"> <p className="createAcc">Create</p></div>
