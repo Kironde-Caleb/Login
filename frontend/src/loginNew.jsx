@@ -17,6 +17,9 @@ function LoginNew() {
           <div type="button" className="button2">
             <p className="accountFont">Create account</p>
           </div>
+          <div type="button" className="button3">
+            <p className="googleFont">Continue with Google</p>
+          </div>
         </div>
       </div>
     </>

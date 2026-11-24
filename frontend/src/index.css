@@ -185,7 +185,7 @@ body {
 .registerContainer {
   width: 600px;
   height: 420px;
-  margin-top: 160px;
+  margin-top: 200px;
   border: solid, 7px, rgb(197, 197, 202);
   margin-left: 190px;
   background-color: white;
@@ -202,27 +202,31 @@ body {
 .firstName {
   width: 290px;
   height: 40px;
-  margin-top: 34px;
+  margin-top: 5px;
   margin-left: 85px;
   border:
     solid,
     3px blue;
+  position: relative;
+  bottom: 58px;
 }
 
 .lastName {
   width: 290px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 0.85px;
   margin-left: 85px;
   border:
     solid,
     3px blue;
+  position: relative;
+  bottom: 20px;
 }
 
 .emailNew {
   width: 290px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-left: 85px;
   border:
     solid,
@@ -280,7 +284,7 @@ body {
 .nextButton {
   width: 60px;
   height: 40px;
-  margin-top: 55px;
+  margin-top: 12px;
   background-color: blue;
   display: block;
   margin-left: 495px;
@@ -301,7 +305,7 @@ body {
 }
 
 .Create {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 250px;
   height: 50px;
   width: 100px;
@@ -362,4 +366,139 @@ body {
   background-position: center;
   background-size: cover;
   padding-top: 20px;
+}
+
+.button3 {
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: black;
+  display: block;
+  margin-left: 85px;
+}
+
+.googleFont {
+  margin-left: 150px;
+  color: white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.button3:hover {
+  cursor: pointer;
+  background-color: rgb(20, 19, 19);
+}
+
+.password2 {
+  width: 290px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 85px;
+  border:
+    solid,
+    3px blue;
+}
+
+.password2::placeholder {
+  padding-left: 15px;
+  color: black;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.retype {
+  width: 290px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 85px;
+  border:
+    solid,
+    3px blue;
+}
+
+.retype::placeholder {
+  padding-left: 15px;
+  color: black;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.finishText {
+  color: white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+  margin-left: 12px;
+}
+
+.finishButton {
+  width: 60px;
+  height: 40px;
+  margin-top: 55px;
+  background-color: blue;
+  display: block;
+  margin-left: 495px;
+  display: block;
+}
+
+.finishButton:hover {
+  background-color: rgb(23, 23, 216);
+  cursor: pointer;
+}
+
+/*AVATA FOR ADDING IMAGE in register page*/
+.avata {
+  background-image: url(../image/avata.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  border-radius: 155px;
+  margin-bottom: 16px;
+  margin-left: 480px;
+  padding: 0;
+  border: solid, 3px, blue;
+  position: relative;
+  bottom: 20px;
+}
+
+.camera {
+  background-image: url(../image/icono-de-camara-bleue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 35px;
+  margin-left: 480px;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  bottom: 60px;
+  left: 30px;
+}
+
+.circle {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 17px;
+  width: 17px;
+  margin-left: 478px;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  bottom: 83px;
+  left: 40px;
+  border-radius: 155px;
+}
+
+.camera:hover {
+  cursor: pointer;
+}
+
+.circle:hover {
+  cursor: pointer;
 }
