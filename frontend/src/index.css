@@ -351,7 +351,7 @@ body {
   width: 680px;
   height: 100%;
   background-color: blue;
-  background-image: url(../image/Connect-Picsart-AiImageEnhancer.png);
+  background-image: url(../image/web-Picsart-AiImageEnhancer.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -393,11 +393,13 @@ body {
 .password2 {
   width: 290px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 3px;
   margin-left: 85px;
   border:
     solid,
     3px blue;
+  position: relative;
+  bottom: 35px;
 }
 
 .password2::placeholder {
@@ -410,7 +412,7 @@ body {
 .retype {
   width: 290px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 85px;
   border:
     solid,
@@ -429,7 +431,7 @@ body {
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-top: 10px;
-  margin-left: 12px;
+  margin-left: 9px;
 }
 
 .finishButton {
@@ -440,6 +442,8 @@ body {
   display: block;
   margin-left: 495px;
   display: block;
+  position: relative;
+  bottom: 26px;
 }
 
 .finishButton:hover {
@@ -501,4 +505,53 @@ body {
 
 .circle:hover {
   cursor: pointer;
+}
+
+.img3 {
+  width: 680px;
+  height: 100%;
+  background-image: url(../image/dis-Picsart-AiImageEnhancer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.contact {
+  width: 290px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 85px;
+  border:
+    solid,
+    3px blue;
+  position: relative;
+  bottom: 75px;
+}
+
+.contact::placeholder {
+  padding-left: 15px;
+  color: black;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.retype,
+.password2,
+.contact:focus {
+  outline: none;
+}
+
+.contact[type="text"] {
+  padding-left: 10px;
+  color: black(23, 23, 216);
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.retype,
+.password2[type="password"] {
+  padding-left: 10px;
+  color: black(23, 23, 216);
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
