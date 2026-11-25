@@ -15,6 +15,7 @@ function RegisterPage2() {
           <input type="password" className="password2" placeholder="Password" />
           <input type="password" className="retype" placeholder="Re-type password" />
           <div className="finishButton"><p className="finishText">Finish</p></div>
+          <div className="arrow"></div>
         </div>
       </div>
     </>

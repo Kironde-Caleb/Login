@@ -555,3 +555,34 @@ body {
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.arrow {
+  width: 40px;
+  background-image: url(../image/arrow-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 45px;
+  display: block;
+  position: relative;
+  bottom: 70px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  width: 40px;
+  background-image: url(../image/Untitled_Design__2_-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 45px;
+  display: block;
+  position: relative;
+  bottom: 70px;
+}
