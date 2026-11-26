@@ -10,6 +10,15 @@ body {
   min-height: 100vh;
 }
 
+body:after {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  content: url(../image/Untitled_Design__2_-removebg-preview.png);
+}
+
 .containerNew {
   width: 100%;
   height: 100vh;
@@ -375,10 +384,11 @@ body {
   background-color: black;
   display: block;
   margin-left: 85px;
+  display: flex;
 }
 
 .googleFont {
-  margin-left: 150px;
+  margin-left: 50px;
   color: white;
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -399,7 +409,7 @@ body {
     solid,
     3px blue;
   position: relative;
-  bottom: 35px;
+  bottom: 40px;
 }
 
 .password2::placeholder {
@@ -417,6 +427,8 @@ body {
   border:
     solid,
     3px blue;
+  position: relative;
+  bottom: 13px;
 }
 
 .retype::placeholder {
@@ -585,4 +597,38 @@ body {
   display: block;
   position: relative;
   bottom: 70px;
+}
+
+.goimage {
+  background-image: url(../image/google-logo-removebg-preview\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 6px;
+  position: relative;
+  left: 35px;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+}
+
+.WeSellHome {
+  margin-top: 28px;
+  margin-left: 790px;
+  height: 50px;
+  width: 100px;
+  display: flex;
+}
+
+.icons {
+  border: solid, 3px, blue;
+  width: 900px;
+  height: 150px;
+  margin-left: 400px;
+  border-radius: 30px;
 }
