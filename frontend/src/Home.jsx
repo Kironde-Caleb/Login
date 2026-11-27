@@ -12,6 +12,12 @@ function Home() {
             <p className="sell">Sell</p>
           </div>
         </div>
+        <input
+          type="text"
+          className="search"
+          placeholder="Search business . . ."
+        />
+        <div className="menu"></div>
         <div className="icons">
           <div className="chat"></div>
           <div className="bell"></div>
@@ -21,6 +27,7 @@ function Home() {
           <div className="heart"></div>
           <div className="add"></div>
         </div>
+        <div className="avata2"></div>
       </header>
       <footer className="footer">
         <p className="footersell"> We Sell</p> <br /> <br />

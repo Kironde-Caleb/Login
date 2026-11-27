@@ -666,6 +666,8 @@ body:after {
   margin-left: 400px;
   border-radius: 20px;
   display: flex;
+  position: relative;
+  bottom: 130px;
 }
 
 .footer {
@@ -735,6 +737,7 @@ body:after {
   height: 40px;
   margin-left: 100px;
   margin-top: 70px;
+  flex-wrap: wrap;
 }
 
 .bell {
@@ -798,4 +801,66 @@ body:after {
 .headersell,
 .chat {
   cursor: pointer;
+}
+
+.search {
+  width: 290px;
+  height: 23px;
+  margin-left: 710px;
+  margin-top: 7px;
+  position: relative;
+  top: 30px;
+  border: none;
+}
+
+.search::placeholder {
+  font-size: 23px;
+  font-family: "gothic";
+  font-weight: bold;
+  color: black;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search[type="text"] {
+  color: black;
+  font-size: 20px;
+  font-family: "gothic";
+}
+
+.menu {
+  background-image: url(../icons/menu-burger.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 280px;
+  margin-top: 70px;
+  position: relative;
+  bottom: 80px;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.avata2 {
+  background-image: url(../image/avata.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  border-radius: 155px;
+  margin-bottom: 16px;
+  margin-left: 995px;
+  position: relative;
+  left: 380px;
+  padding: 0;
+  border: solid, 2px, blue;
+  position: relative;
+  bottom: 260px;
 }
