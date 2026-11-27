@@ -665,6 +665,7 @@ body:after {
   height: 130px;
   margin-left: 400px;
   border-radius: 20px;
+  display: flex;
 }
 
 .footer {
@@ -674,34 +675,127 @@ body:after {
   position: relative;
   top: 750px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footersell {
   font-family: gothic;
   font-size: 3;
   color: white;
+  margin-left: 20px;
+  flex-basis: 100%;
 }
 
 .footerabout {
   font-family: gothic;
   font-size: 3;
   color: white;
+  margin-left: 20px;
+  margin-top: 8px;
 }
 
 .footerhelp {
   font-family: gothic;
   font-size: 3;
   color: white;
+  margin-left: 20px;
+  margin-top: 8px;
 }
 
 .footercontact {
   font-family: gothic;
   font-size: 3;
   color: white;
+  margin-left: 20px;
+  margin-top: 8px;
 }
 
 .footerworks {
   font-family: gothic;
   font-size: 2;
   color: white;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.footersell,
+.footerabout,
+.footerhelp,
+.footercontact,
+.footerworks:hover {
+  cursor: pointer;
+}
+
+.chat {
+  background-image: url(../icons/chat-bubble\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.bell {
+  background-image: url(../icons/bell.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 58px;
+  margin-top: 70px;
+}
+
+.headersell {
+  background-color: blue;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 50px;
+  margin-left: 58px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.heart {
+  background-image: url(../icons/heart.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 58px;
+  margin-top: 70px;
+}
+
+.add {
+  background-image: url(../icons/addition.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 58px;
+  margin-top: 70px;
+}
+
+.headfont {
+  color: white;
+  font-size: 23px;
+  font-family: "gothic";
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 120px;
+}
+
+.heart,
+.bell,
+.add,
+.headfont,
+.headersell,
+.chat {
+  cursor: pointer;
 }

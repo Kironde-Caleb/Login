@@ -12,10 +12,18 @@ function Home() {
             <p className="sell">Sell</p>
           </div>
         </div>
-        <div className="icons"></div>
+        <div className="icons">
+          <div className="chat"></div>
+          <div className="bell"></div>
+          <div className="headersell">
+            <p className="headfont"> SELL</p>
+          </div>
+          <div className="heart"></div>
+          <div className="add"></div>
+        </div>
       </header>
       <footer className="footer">
-        <p className="footersell"> We Sell</p>
+        <p className="footersell"> We Sell</p> <br /> <br />
         <p className="footerabout"> About</p>
         <p className="footerhelp"> Help</p>
         <p className="footercontact"> Contact us</p>
