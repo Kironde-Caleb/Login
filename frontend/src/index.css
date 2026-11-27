@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "gothic";
+  src: url(../fonts/DidactGothic-Regular.ttf);
+  font-weight: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -80,19 +86,22 @@ body:after {
 }
 
 .loginFont {
-  margin-left: 180px;
+  margin-left: 175px;
   color: white;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 10px;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 7px;
 }
 
 .accountFont {
-  margin-left: 150px;
+  margin-left: 145px;
   color: white;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 10px;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 7px;
 }
 
 .button2:hover {
@@ -114,29 +123,33 @@ body:after {
 .email::placeholder {
   padding-left: 20px;
   color: blue;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .password::placeholder {
   padding-left: 20px;
   color: blue;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .email[type="text"] {
   padding-left: 15px;
   color: black(23, 23, 216);
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .password[type="password"] {
   padding-left: 15px;
   color: black(23, 23, 216);
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .WeSell {
@@ -160,8 +173,8 @@ body:after {
 
 .we {
   font-size: 30px;
-  margin-top: 3px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   color: white;
   margin-left: 6px;
 }
@@ -172,8 +185,8 @@ body:after {
 
 .sell {
   font-size: 30px;
-  margin-top: 3px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bolder;
   color: blue;
   margin-left: 4px;
 }
@@ -185,7 +198,8 @@ body:after {
 .forgot {
   margin-top: 18px;
   margin-left: 85px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   font-size: 11px;
   color: black;
   text-decoration: none;
@@ -252,42 +266,48 @@ body:after {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .emailNew[type="text"] {
   padding-left: 10px;
   color: black(23, 23, 216);
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .firstName::placeholder {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .firstName[type="text"] {
   padding-left: 10px;
   color: black(23, 23, 216);
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .lastName::placeholder {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .lastName[type="text"] {
   padding-left: 10px;
   color: black(23, 23, 216);
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .nextButton {
@@ -308,7 +328,8 @@ body:after {
 .nextText {
   color: white;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   padding-top: 10px;
   margin-left: 12px;
 }
@@ -324,7 +345,7 @@ body:after {
 .Create2 {
   background-color: blue;
   height: 25px;
-  width: 50px;
+  width: 53px;
 }
 
 .Create3 {
@@ -334,8 +355,12 @@ body:after {
 
 .createAcc {
   font-size: 16px;
-  margin-top: 3px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1px;
+  font-family: "gothic";
+  font-weight: bold;
+  font-family: "gothic";
+  font-weight: bold;
+  font-size: 18px;
   color: white;
   margin-left: 3px;
 }
@@ -347,7 +372,8 @@ body:after {
 .AccountCre {
   font-size: 16px;
   margin-top: 3px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   color: blue;
   margin-left: 3px;
 }
@@ -391,7 +417,8 @@ body:after {
   margin-left: 50px;
   color: white;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   padding-top: 10px;
 }
 
@@ -416,7 +443,8 @@ body:after {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .retype {
@@ -435,13 +463,15 @@ body:after {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .finishText {
   color: white;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
   padding-top: 10px;
   margin-left: 9px;
 }
@@ -544,7 +574,8 @@ body:after {
   padding-left: 15px;
   color: black;
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .retype,
@@ -557,7 +588,8 @@ body:after {
   padding-left: 10px;
   color: black(23, 23, 216);
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .retype,
@@ -565,7 +597,8 @@ body:after {
   padding-left: 10px;
   color: black(23, 23, 216);
   font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "gothic";
+  font-weight: bold;
 }
 
 .arrow {
@@ -615,6 +648,7 @@ body:after {
 .header {
   height: 60px;
   width: 100%;
+  position: fixed;
 }
 
 .WeSellHome {
@@ -628,7 +662,46 @@ body:after {
 .icons {
   border: solid, 3px, blue;
   width: 900px;
-  height: 150px;
+  height: 130px;
   margin-left: 400px;
-  border-radius: 30px;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: blue;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 750px;
+  display: flex;
+}
+
+.footersell {
+  font-family: gothic;
+  font-size: 3;
+  color: white;
+}
+
+.footerabout {
+  font-family: gothic;
+  font-size: 3;
+  color: white;
+}
+
+.footerhelp {
+  font-family: gothic;
+  font-size: 3;
+  color: white;
+}
+
+.footercontact {
+  font-family: gothic;
+  font-size: 3;
+  color: white;
+}
+
+.footerworks {
+  font-family: gothic;
+  font-size: 2;
+  color: white;
 }
